@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f2e0c6;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.barra{
+	background-color: #7f0f09;
+}
+
+.profile-img{
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+}

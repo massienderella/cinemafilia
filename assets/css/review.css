@@ -1,0 +1,13 @@
+.my-review{
+  margin-left: 8%;
+}
+
+.movie-review{
+  margin-left: 5%;
+}
+
+.div-scroll{
+  height: 420px;
+  overflow: scroll;
+  overflow-x: hidden;
+}

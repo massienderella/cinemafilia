@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="assets/css/followers.css">
+
+	<title>Cinefilia</title>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top barra">
+    <div class="container">
+      <img src="assets/images/logo-black.png" alt="" class="logo">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="followers.html">Inicio</a></li>
+        <li><a href="profile.html">Perfil</a></li>
+        <li><a href="review.html">Reseñas</a></li>
+          <li><a href="https://friendlychat-a6265.firebaseapp.com/" target="_blank">Mensajes</a></li>
+          <li><a href="#">Ajustes</a></li>
+      </ul>
+    </div>
+  </nav>
+  <img src="assets/images/banner.jpg" class="banner" alt="">
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-md-4">
+  			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Tus seguidores</h3>
+  				</div>
+  				<div class="panel-body">
+    				<div class="row">
+    					<div class="row">
+    						<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/aldo.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 1</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/anamaria.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 2</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/andrea.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 3</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					</div>
+    					<div class="row">
+    						<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/gian.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 4</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/jose.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 5</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/katy.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 6</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					</div>
+    					<div class="row">
+    						<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/mariana.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 7</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/mariapaula.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 8</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					<div class="col-md-4">
+    						<div class="thumbnail">
+      							<img src="assets/usuarios/raymi.jpg" alt="...">
+      						<div class="caption">
+        						<h4>Usuario 9</h4>
+        						<p><a href="#" class="btn btn-primary" role="button">Ver perfil</a></p>
+      						</div>
+    					</div>
+    					</div>
+    					</div>
+    					<button class="all-followers">Ver todos</button>
+    				</div>
+  				</div>
+			</div>
+  		</div>
+  		<div class="col-md-4">
+  			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Actualizaciones de estado</h3>
+  				</div>
+  				<div class="panel-body">
+    				<div class="input-group input-group-lg">
+  						<span class="input-group-addon glyphicon glyphicon-send" id="sizing-addon1"></span>
+  						<input type="text" class="form-control" placeholder="Exprésate aquí :)" aria-describedby="sizing-addon1" id="status">
+					</div>
+					<button id="send">Enviar</button>
+					<div id="contenedor"></div>
+  				</div>
+			</div>
+  		</div>
+  		<div class="col-md-4">
+  			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Sugerencias...</h3>
+  				</div>
+  				<div class="panel-body">
+    				<div class="row">
+    					<div class="col-md-12">
+    						<div class="media">
+  								<div class="media-left media-middle">
+    								<a href="#">
+      								<img class="media-object" src="assets/usuarios/aldo2.jpg" alt="...">
+    								</a>
+  								</div>
+  							<div class="media-body">
+    							<h4 class="media-heading">Nuevo comentario</h4>
+   									 <a>Carlos</a> te ha escrito: "¿Quedamos entonces en ir al cine mañana a ver la película que te comenté? Te paso a buscar..." <a>Responder</a>
+  								</div>
+							</div>
+    					</div>
+    				</div>
+    				<div class="row">
+    					<div class="col-md-12">
+    						<div class="media">
+  								<div class="media-left media-middle">
+    								<a href="#">
+      								<img class="media-object" src="assets/images/trainspotting.jpg" alt="...">
+    								</a>
+  								</div>
+  							<div class="media-body">
+    							<h4 class="media-heading">Trainspotting</h4>
+   									 Uno de tus contactos piensa que esta película podría interesarte. <a>Ver más</a>
+  								</div>
+							</div>
+    					</div>
+    				</div>
+    				<div class="row">
+    					<div class="col-md-12">
+    						<div class="media">
+  								<div class="media-left media-middle">
+    								<a href="#">
+      								<img class="media-object" src="assets/images/titanic.jpg" alt="...">
+    								</a>
+  								</div>
+  							<div class="media-body">
+    							<h4 class="media-heading">Titanic - Review</h4>
+   									 <a>José</a> ha escrito un nuevo review de <a>Titanic</a>: "Titanic es una de las mejores películas de James Cameron al mezclar a la perfección el cine espectáculo con el romántico. Una buena experiencia de una gran belleza visual con unas buenas actuaciones de Leonardo DiCaprio y Kate Winslet, aunque algo edulcorada de más en ciertos pasajes." <a>Ver más</a> 
+  								</div>
+							</div>
+    					</div>
+    				</div>
+  				</div>
+			</div>
+  		</div>
+  	</div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="assets/js/followers.js"></script>	
+</body>
+</html>
